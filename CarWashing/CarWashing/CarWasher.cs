@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace CarWashing
+namespace CarWashing.Business
 {
     public abstract class CarWasher
     {
-        private readonly List<WashingRecord> _washingRecords = new ();
+        private readonly List<WashingRecord> _washingRecords = new();
 
         public void Wash(Car car)
         {

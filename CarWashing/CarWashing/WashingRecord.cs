@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CarWashing
+namespace CarWashing.Business
 {
     public class WashingRecord
     {

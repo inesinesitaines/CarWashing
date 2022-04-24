@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-namespace CarWashing
+namespace CarWashing.Business
 {
     public class ManualCarWasher : CarWasher
     {

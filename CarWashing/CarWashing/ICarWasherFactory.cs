@@ -1,4 +1,4 @@
-﻿namespace CarWashing
+﻿namespace CarWashing.Business
 {
     internal interface ICarWasherFactory
     {

@@ -1,6 +1,7 @@
-﻿using System;
+﻿using CarWashing.Business;
+using System;
 
-namespace CarWashing.Program
+namespace CarWashing.ConsoleProgram
 {
     internal class Program
     {
@@ -18,7 +19,7 @@ namespace CarWashing.Program
             ManualCarWasherFactory manualCarWasherFactory = new();
             CarWasher manualCarWasher = manualCarWasherFactory.CreateCarWasher();
 
-            foreach(var car in cars)
+            foreach (var car in cars)
             {
                 manualCarWasher.Wash(car);
             }
@@ -28,7 +29,7 @@ namespace CarWashing.Program
             AutoCarWasherFactory autoCarWasherFactory = new();
             CarWasher autoCarWasher = autoCarWasherFactory.CreateCarWasher();
 
-            foreach(var car in cars)
+            foreach (var car in cars)
             {
                 autoCarWasher.Wash(car);
             }
